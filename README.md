@@ -12,8 +12,6 @@ The purpose of this project is to be able detect, extract, and display a form fr
 This is also part of take home test for applying Machine Learning Computer Vision Engineer in eFishery.
 
 ## Problem
-form dari riset budidaya
-harian
 We received daily task writing reseach form of fish cultivation, the writing is still on the paper. Our aim is to digitalize those daily fish cultivation form data, but it will be painfull to manually insert the data through every single papers.
 <br>
 We need a progam that able to detect, extract, and save the form data from an image.
