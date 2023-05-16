@@ -1,5 +1,3 @@
-# eFishery-Task1-FormExtractionOCR
-
 <div align="center" style="text-align: center">
 
 <p style="text-align: center">
@@ -8,7 +6,7 @@
 
 </div>
 
-# eFishery Task 3 - Vibrio Detection
+# eFishery Task 1 - Form Extraction OCR
 <p> Hi.. </p>
 The purpose of this project is to be able detect, counting, and classifying vibrio bacteria with YOLOv8, well known as one of the DeepLearning object detection algorithm.
 This is also part of take home test for applying Machine Learning Computer Vision Engineer in eFishery.
@@ -75,4 +73,7 @@ docker-compose down
 ### Result
 <p style="text-align: center">
   <img align="center" src="result.png" alt="eFishery">
+</p>
+<p style="text-align: center">
+  <img align="center" src="result2.png" alt="eFishery">
 </p>
