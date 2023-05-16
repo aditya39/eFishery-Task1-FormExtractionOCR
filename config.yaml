@@ -1,0 +1,10 @@
+model:
+  yolov8n: "ae31d73862c74e9291cd2a58e0b0c6e2"
+  yolov8s: "0365405b480348d495a26e02dd63e3bc"
+  yolov8m: "dca1928ec54148f5886fbeeb08e3374c"
+  yolov8l: "d4847e1ae3404a09ac5a52f9c75d59e2"
+  yolov8x: "566991625855413d96e8e0c542e663e8"
+yolov8:
+  conf: 0.5
+  iou: 0.5
+  device: "cpu"
