@@ -29,7 +29,7 @@ Deep learning approach were made to solved this problem, by using YOLOv8 (You On
   
 ## Installation and Usage
 
-IMPORTANT!
+<b> IMPORTANT! </b><br>
 Because of we use AWS Textract, so we need the API Key and Secret key which cannot be put on github because violates AWS Customer Agreement.
 <br>
 To get those API key you can Sign Up on AWS, or you can email me on aditya.fidin@gmail.com for the API & Secret Key.
