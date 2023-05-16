@@ -2,7 +2,6 @@ from ultralytics import YOLO
 import cv2
 import numpy as np
 import yaml
-from gvision import get_text_response_from_path
 import boto3
 import pandas as pd
 from io import BytesIO
@@ -40,8 +39,7 @@ def segment(file, model):
     result = model.predict(
         source=image, # image input
         conf=cfg["yolov8"]["conf"], # confidence threshold
-        device='cpu',
-        save_crop=True) # device (defualt 0 (gpu), change to "cpu" to use cpu)
+        device='cpu') # device (defualt 0 (gpu), change to "cpu" to use cpu)
     
     # Plot detection result image
     try:
