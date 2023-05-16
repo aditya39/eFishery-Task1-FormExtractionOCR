@@ -69,8 +69,8 @@ def segment(file, model):
         pass
 
     # Connect with AWS Textract
-    client = boto3.client("textract", aws_access_key_id = "AKIAREXGVRHDK2LNPNHC",
-                        aws_secret_access_key= "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", region_name = "us-east-2")
+    client = boto3.client("textract", aws_access_key_id = "",
+                        aws_secret_access_key= "", region_name = "us-east-2")
     response = client.analyze_document( Document={'Bytes': buffered.getvalue()}, FeatureTypes=['TABLES'])
 
     blocks = response['Blocks']
