@@ -28,6 +28,13 @@ Deep learning approach were made to solved this problem, by using YOLOv8 (You On
   5. We used AWS Textract to do the Optical Character Recognition.
   
 ## Installation and Usage
+===========================================================
+IMPORTANT!
+Because of we use AWS Textract, so we need the API Key and Secret key which cannot be put on github because violates AWS Customer Agreement.
+<br>
+To get those API key you can Sign Up on AWS, or you can email me on aditya.fidin@gmail.com for the API & Secret Key.
+===========================================================
+
 Here is the instruction about how to install and run the program.
 <br>
 ### PYTHON USAGE
